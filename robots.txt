@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: index_new.html
+Disallow: /cgi-bin/
+Disallow: /board/
+Disallow: /board/admin/
+Disallow: /board3/
+Disallow: /bboard/
+Disallow: /admin/
+Disallow: /catalog/admin/
+Disallow: /catalog/install/
+Disallow: /private/
+Disallow: /teststore/
