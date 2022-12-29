@@ -1,0 +1,47 @@
+.new-page-img {
+    max-width: 80vw;
+}
+
+.new-page-btn {
+    position: absolute;
+    bottom: 47%;
+    left: 42%;
+
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    -moz-transition: background-color 0.2s ease-in-out,
+        box-shadow 0.2s ease-in-out, color 0.2s ease-in-out,
+        -moz-transform 0.1s ease-in-out;
+    -webkit-transition: background-color 0.2s ease-in-out,
+        box-shadow 0.2s ease-in-out, color 0.2s ease-in-out,
+        -webkit-transform 0.1s ease-in-out;
+    -ms-transition: background-color 0.2s ease-in-out,
+        box-shadow 0.2s ease-in-out, color 0.2s ease-in-out,
+        -ms-transform 0.1s ease-in-out;
+    transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out,
+        color 0.2s ease-in-out, transform 0.1s ease-in-out;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    padding: 0 2rem;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    border-radius: 3.5rem;
+    border: 2px solid black;
+    color: #005596;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#new-page-container {
+    position: relative;
+}
