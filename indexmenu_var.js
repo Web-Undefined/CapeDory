@@ -8,7 +8,7 @@
 
 ***********************************************************************************/
 
-var NoOffFirstLineMenus = 14; // Number of first level items
+var NoOffFirstLineMenus = 15; // Number of first level items
 
 var LowBgColor = "#000099"; // Background color when mouse is not over
 
@@ -121,7 +121,7 @@ function AfterCloseAll() {
 Menu1 = new Array("Home", "index.html", "", 0, 20, 160);
 
 Menu2 = new Array(
-    "Go To CDSOA.org",
+    "Go To CapeDorySOA.org",
     "https://cdsoa.clubexpress.com/",
     "",
     0,
@@ -129,34 +129,9 @@ Menu2 = new Array(
     160
 );
 
-Menu3 = new Array("Member Benefits", "benefits.html", "", 0);
+Menu3 = new Array("Events 2023", "https://cdsoa.clubexpress.com/", "", 0);
 
-Menu4 = new Array("News & Events", "events.html", "", 4);
-
-Menu4_1 = new Array("General Events", "genevents.html", "", 0, 20, 160);
-
-Menu4_2 = new Array("Fleet Events", "events.html", "", 5);
-
-Menu4_2_1 = new Array(
-    "Carolinas",
-    "events.html#CarolinasEvents",
-    "",
-    0,
-    20,
-    180
-);
-
-Menu4_2_2 = new Array("Southeast", "events.html#CentralGulfEvents", "", 0);
-
-Menu4_2_3 = new Array("Chesapeake", "events.html#ChesapeakeEvents", "", 0);
-
-Menu4_2_4 = new Array("Gulf Coast", "events.html#GCFleetEvents", "", 0);
-
-Menu4_2_5 = new Array("Northeast", "events.html#NEFleetEvents", "", 0);
-
-Menu4_3 = new Array("News", "news.html", "", 0);
-
-Menu4_4 = new Array("MASTHEAD", "https://cdsoamasthead.org/", "", 0);
+Menu4 = new Array("Member Benefits", "benefits.html", "", 0);
 
 Menu5 = new Array("Fleets", "fleets.html", "", 5);
 
@@ -495,9 +470,36 @@ Menu12 = new Array(
     160
 );
 
-Menu13 = new Array("Contact Us", "contactus.html", "", 0, 20, 160);
+Menu13 = new Array("News & Events Archive", "events.html", "", 4);
 
-Menu14 = new Array(
+Menu13_1 = new Array("General Events", "genevents.html", "", 0, 20, 160);
+
+Menu13_2 = new Array("Fleet Events", "events.html", "", 5);
+
+Menu13_2_1 = new Array(
+    "Carolinas",
+    "events.html#CarolinasEvents",
+    "",
+    0,
+    20,
+    180
+);
+
+Menu13_2_2 = new Array("Southeast", "events.html#CentralGulfEvents", "", 0);
+
+Menu13_2_3 = new Array("Chesapeake", "events.html#ChesapeakeEvents", "", 0);
+
+Menu13_2_4 = new Array("Gulf Coast", "events.html#GCFleetEvents", "", 0);
+
+Menu13_2_5 = new Array("Northeast", "events.html#NEFleetEvents", "", 0);
+
+Menu13_3 = new Array("News", "news.html", "", 0);
+
+Menu13_4 = new Array("MASTHEAD", "https://cdsoamasthead.org/", "", 0);
+
+Menu14 = new Array("Contact Us", "contactus.html", "", 0, 20, 160);
+
+Menu15 = new Array(
     "<img src='images/30drawing_trans.gif' width='160' height='211'>",
     "cdinfo.html#specs",
     "",
